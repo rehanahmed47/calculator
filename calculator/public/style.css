@@ -1,0 +1,80 @@
+body{
+    padding-top: 10%;
+    font: bold 15px/28px Arial, Helvetica, sans-serif;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    border: 4px groove #414141;
+    border-radius: 15px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    padding: 10px;
+  }
+  .cal-insert{
+    background: linear-gradient(to bottom, #ffffff 0%, #f1f3e7 100%);
+   border-radius: 12px;
+      width: 100%;
+      height: auto;
+  }
+  .cal-insert-data{
+      margin-left: 12px;
+      margin-right: 12px;
+      padding-bottom: 5px;
+    font-size: 45px;
+	line-height: 51px;
+	text-align: right;
+  }
+  .cal-insert-data1{
+    font-size: 14px;
+	line-height: 14px;
+    text-align: left;
+  }
+table
+{
+    margin-top: 10px;
+    border-spacing: 9px;
+    margin-left: -9px;
+    margin-right: -12px;
+}
+  td{ 
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 12px;
+    height: 34px;
+	width: 57px;
+    color: white;
+    background-color: #5b6467;
+background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  }
+  td:active{
+    box-shadow:
+    0 0 3px white; 
+  }
+  .tdequal-chang-col{
+    background: linear-gradient(to right, #f85032, #e73827);
+    font-size: 20px; 
+    padding-top: 45px;
+    font-weight: bolder;
+  }
+ .changcol{
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+    
+  }
+.changcol-num{
+    background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+}
+  td:hover{
+    text-shadow: 0 0 5px white;
+  }
+
+  sup{
+    font-size: 10px;
+	line-height: 0;
+  }
